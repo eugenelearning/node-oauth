@@ -1,0 +1,33 @@
+{
+    "name": "node-oauth",
+    "version": "0.0.1",
+    "description": "Node and oAuth app",
+    "main": "index.js",
+    "scripts": {
+        "start": "fastify start -p 3010 -l info index.js",
+        "dev": "fastify start -w -l info -p 3010 -P index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eugenelearning/node-oauth.git"
+    },
+    "author": "Eugene Yemelin",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/eugenelearning/node-oauth/issues"
+    },
+    "homepage": "https://github.com/eugenelearning/node-oauth#readme",
+    "dependencies": {
+        "@fastify/autoload": "^6.3.1",
+        "@fastify/passport": "^3.0.2",
+        "@fastify/secure-session": "^8.2.0",
+        "@fastify/sensible": "^6.0.3",
+        "@fastify/view": "^11.1.1",
+        "ejs": "^3.1.10",
+        "fastify": "^5.6.1",
+        "fastify-cli": "^7.4.0",
+        "fastify-plugin": "^5.1.0",
+        "passport": "^0.7.0",
+        "passport-google-oauth20": "^2.0.0"
+    }
+}
